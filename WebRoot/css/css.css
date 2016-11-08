@@ -1,0 +1,109 @@
+/* CSS Document */
+
+body{
+text-align=center;
+background-color: #CCCCCC;
+
+}
+.center_container{
+width:1000px;
+   margin:0 auto;   
+ background-color:#FFFFFF;
+}
+
+#top_img img{
+width:990px;
+height:268px;
+margin-top:20px;
+}
+
+#inclu_nav {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+}
+
+.nav a{
+	color: #333;
+	text-decoration: none
+}
+
+.nav {
+	list-style: none;
+	height: 30px;
+	border-bottom: 10px solid #999999 ;
+	padding-left: 17px;
+}
+
+.nav li {
+	float: left
+}
+
+.nav li a {
+	display: block;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	width: 80px;
+	background: #efefef;
+	margin-left: 1px;
+}
+
+.nav li a.on,.nav li a:hover {
+	background: #999999;
+	color: #fff;
+}
+
+.input{
+width:150px;
+}
+.input_test{
+width:50px;
+}
+
+div.img
+  {
+  margin:10px 10px 10px 44px;
+  border:1px solid ;
+  height:auto;
+  width:auto;
+  float:left;
+  text-align:center;
+  }
+div.img img
+  {
+  display:inline;
+  margin:3px;
+  border:1px solid #bebebe;
+  }
+div.img a:hover img
+  {
+  border:1px solid  #0000FF;
+  }
+div.desc
+  {
+  text-align:center;
+  font-weight:normal;
+  width:150px;
+  font-size:19px;
+  margin:10px 5px 10px 5px;
+  }
+  .hr{
+  	height="30px";
+	background-color: #CCCCCC;
+	color: #000000;
+	font-size:38px;
+	width:93%;
+	margin:30 0 10 0;
+  }
+  
+  #csr{
+  text-align:left;
+  	margin-left:40px;
+  
+  }
+  div.hr a:hover{
+  	color: #FF00FF;
+  
+  
+  }
